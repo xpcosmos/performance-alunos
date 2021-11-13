@@ -271,11 +271,11 @@ Temos de forma geral, temos que as médias gerais ficam dentre 69 e 62, todavia 
 75% dos alunos tem notas de: 77 pontos.
 </pre>
 
-Isso siginica que temos uma pequena parte de alunos com notas abaixo de 47, sendo que geralmente, os anos tiram notas acima de 47. Vamos verificar a distribuição dessas notas:
+Isso siginica que temos uma pequena parte de alunos com notas abaixo de 47. Vamos verificar a distribuição dessas notas:
 
 ![matematica_hist](https://user-images.githubusercontent.com/85235525/141655509-f55dc8df-cd25-4542-8776-49a70a42c5d9.png)
 
-Como descrito a cima, temos mais alunos co0m notas a cima de 40 do que a baixo, o que é um ótimo sinal.
+Como descrito a cima, temos mais alunos com notas a cima de 40 do que a baixo, o que é um ótimo sinal.
 
 ![matematica](https://user-images.githubusercontent.com/85235525/141655018-3780911d-d6ef-417a-9414-3b203dbb8020.png)
 
@@ -284,9 +284,42 @@ Temos uma distribuição mais positiva entre os alunos que tem pais com mestrado
 ![2matematica_hist_parental](https://user-images.githubusercontent.com/85235525/141659206-32cc4f36-2653-4523-9f0b-2f599a4fafc8.png)
 ![mat_maiorq_40_hist_parental](https://user-images.githubusercontent.com/85235525/141659659-98e0973f-d446-46b2-af33-7810e586c034.png)
 
+Se verificarmos uma análise com separação de gênero teremos:
+
+![mat_maiorq_40_hist_genero](https://user-images.githubusercontent.com/85235525/141660748-d4327881-afca-4662-94f4-c392476cfd68.png)
+
+Vemos que os homens tem uma melhor distribuição entre 60 e 80 e as mulheres são mais pontuais em aproximadamente 65, com uma densidade maior entre 40 e 63, os homens por sua vez tem uma maior densidade entre 70 e 90.
+
 ### Conclusão:
 
-Vemos que no geral há uma boa distribuição de notas a cima de 60, e a maioria dos alunos tem pais com ensino superior incompleto, no entanto eles matem as notas geralmente próxima aos 60. Alunos cujo os pais tem ensino médio completo matem esse padrão, mas com notas ligeiramente mais baixas. Alunos cujo os pais tem ensino técnico tem picos próximos a 60, mas também uma maior densidade entre 70 e 85, o que representa notas mais altas na matéria. Alunos cujo os pais tem ensino médio incompleto tem picos em 70, também com maior densidade entre 40 e 60, o que mostra notas mais baixas na matéria. Alunos cujo os mais tem bacharelado tem notas com picos em aproximadamente 70 e uma maior densidade entre 70 para 100, o que demonstra uma maior quantidade de notas altas em relação aos demais. Alunos com pais que possuem mestrado tem picos em 80, mas também temos uma quantidade considerávelmente alta de alunos com notas entre 50 e 60, o que pode significar que não existe uma correlação entre nível de ensino do responsável com a nota do aluno ou uma quantidade insuficiente de dados, já que essa categoria de aluno detém apenas 59 registros, o que representa menos de 6% dos dados.
+Temos que o rensimento em matemática de homens é ligeiramente maior que o das mulheres. Há um desempenho similar dos alunos até 60, mas depois dessa nota as mulheres sofrem uma queda de frequência maior que em homens.
+Em relação ao nível de ensino dos responsáveis dos alunos, podemos observar também que no geral há uma boa distribuição de notas a cima de 60, e a maioria dos alunos tem responsáveis com ensino superior incompleto, no entanto eles mantem as notas geralmente próximas aos 60. Alunos cujo os responsáveis tem ensino médio completo mantém esse padrão, mas com notas ligeiramente mais baixas. Alunos cujo os reponsáveis tem ensino técnico tem picos próximos a 60, mas também uma maior densidade entre 70 e 85, o que representa notas mais altas na matéria. Alunos cujo os responsáveis tem ensino médio incompleto tem picos em 70, também com maior densidade entre 40 e 60 o que mostra notas mais baixas na matéria. Alunos cujo o responsáveis tem bacharelado, tem notas com picos em aproximadamente 70 e uma maior densidade entre 70 para 100, o que demonstra uma maior quantidade de notas altas em relação aos demais. Alunos com pais que possuem mestrado tem picos em 80, mas também temos uma quantidade considerávelmente alta de alunos com notas entre 50 e 60, o que pode significar que não existe uma correlação entre nível de ensino do responsável com a nota do aluno ou uma quantidade insuficiente de dados, já que essa categoria de aluno detém apenas 59 registros, o que representa menos de 6% dos dados.
+
+Concluímos que em matemática os alunos que se saem melhores são os homens cujo os pais não tem ensino médio completo.
+
+## Literatura
+
+De forma geral temos uma média de 69, mas também temos que:
+
+<pre>5% dos alunos tem notas de: 44 pontos.
+10% dos alunos tem notas de: 51 pontos.
+25% dos alunos tem notas de: 59 pontos.
+50% dos alunos tem notas de: 70 pontos.
+75% dos alunos tem notas de: 79 pontos.
+</pre>
+
+Isso siginica que temos uma pequena parte de alunos com notas abaixo de 47. Vamos verificar a distribuição dessas notas:
+
+![distribuicao_geral_leitura](https://user-images.githubusercontent.com/85235525/141661669-6f3c1747-d77d-4737-864d-9d732e798d0d.png)
+
+Temos um pico a cima de 70, mas uma maior densidade entre 60 e 70.
+
+Verificando uma distribuição com uma categorização de nível educacional dos responsáveis:
+
+![2leitura_hist_parental](https://user-images.githubusercontent.com/85235525/141661785-f32e336c-b565-4ecc-b95e-dd8089c5bdc6.png)
+
+
+
 
 
 
