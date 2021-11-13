@@ -159,9 +159,7 @@ memory usage: 62.6+ KB
  
  Verificando nosso dataset, não há dados faltantes, além de estarem corretamente tipados.
  
- # 2 Medidas de tendências 
- 
- # 2.1 - Médias
+ # 2 Medidas de tendência central
  
  Vamos primeiro verficar as médias das notas e entender temos algum insight com isso!
  
@@ -261,6 +259,34 @@ media_geral      65.108007
 
 </pre>
 
-Visualizando isso gráficamente:
+# Distribuição de notas
 
-![grafico3](https://github.com/xpcosmos/performance-alunos/blob/main/assets/grafico-3.png)
+## Matemática
+
+Temos de forma geral, temos que as médias gerais ficam dentre 69 e 62, todavia temos que:
+
+<pre>10% dos alunos tem notas de: 47 pontos.
+25% dos alunos tem notas de: 57 pontos.
+50% dos alunos tem notas de: 66 pontos.
+75% dos alunos tem notas de: 77 pontos.
+</pre>
+
+Isso siginica que temos uma pequena parte de alunos com notas abaixo de 47, sendo que geralmente, os anos tiram notas acima de 47. Vamos verificar a distribuição dessas notas:
+
+![matematica_hist](https://user-images.githubusercontent.com/85235525/141655509-f55dc8df-cd25-4542-8776-49a70a42c5d9.png)
+
+Como descrito a cima, temos mais alunos co0m notas a cima de 40 do que a baixo, o que é um ótimo sinal.
+
+![matematica](https://user-images.githubusercontent.com/85235525/141655018-3780911d-d6ef-417a-9414-3b203dbb8020.png)
+
+Temos uma distribuição mais positiva entre os alunos que tem pais com mestrado, mas ao mesmo tempo que há uma quantidade significativa de alunos com notas a baixo de 60.
+
+![2matematica_hist_parental](https://user-images.githubusercontent.com/85235525/141659206-32cc4f36-2653-4523-9f0b-2f599a4fafc8.png)
+![mat_maiorq_40_hist_parental](https://user-images.githubusercontent.com/85235525/141659659-98e0973f-d446-46b2-af33-7810e586c034.png)
+
+### Conclusão:
+
+Vemos que no geral há uma boa distribuição de notas a cima de 60, e a maioria dos alunos tem pais com ensino superior incompleto, no entanto eles matem as notas geralmente próxima aos 60. Alunos cujo os pais tem ensino médio completo matem esse padrão, mas com notas ligeiramente mais baixas. Alunos cujo os pais tem ensino técnico tem picos próximos a 60, mas também uma maior densidade entre 70 e 85, o que representa notas mais altas na matéria. Alunos cujo os pais tem ensino médio incompleto tem picos em 70, também com maior densidade entre 40 e 60, o que mostra notas mais baixas na matéria. Alunos cujo os mais tem bacharelado tem notas com picos em aproximadamente 70 e uma maior densidade entre 70 para 100, o que demonstra uma maior quantidade de notas altas em relação aos demais. Alunos com pais que possuem mestrado tem picos em 80, mas também temos uma quantidade considerávelmente alta de alunos com notas entre 50 e 60, o que pode significar que não existe uma correlação entre nível de ensino do responsável com a nota do aluno ou uma quantidade insuficiente de dados, já que essa categoria de aluno detém apenas 59 registros, o que representa menos de 6% dos dados.
+
+
+
