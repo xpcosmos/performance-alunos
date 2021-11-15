@@ -292,7 +292,7 @@ Vemos que os homens tem uma melhor distribuição entre 60 e 80 e as mulheres s�
 
 ### Conclusão:
 
-Temos que o rensimento em matemática de homens é ligeiramente maior que o das mulheres. Há um desempenho similar dos alunos até 60, mas depois dessa nota as mulheres sofrem uma queda de frequência maior que em homens.
+Temos que o rendimento em matemática de homens é ligeiramente maior que o das mulheres. Há um desempenho similar dos alunos até 60, mas depois dessa nota as mulheres sofrem uma queda de frequência maior que em homens.
 Em relação ao nível de ensino dos responsáveis dos alunos, podemos observar também que no geral há uma boa distribuição de notas a cima de 60, e a maioria dos alunos tem responsáveis com ensino superior incompleto, no entanto eles mantem as notas geralmente próximas aos 60. Alunos cujo os responsáveis tem ensino médio completo mantém esse padrão, mas com notas ligeiramente mais baixas. Alunos cujo os reponsáveis tem ensino técnico tem picos próximos a 60, mas também uma maior densidade entre 70 e 85, o que representa notas mais altas na matéria. Alunos cujo os responsáveis tem ensino médio incompleto tem picos em 70, também com maior densidade entre 40 e 60 o que mostra notas mais baixas na matéria. Alunos cujo o responsáveis tem bacharelado, tem notas com picos em aproximadamente 70 e uma maior densidade entre 70 para 100, o que demonstra uma maior quantidade de notas altas em relação aos demais. Alunos com pais que possuem mestrado tem picos em 80, mas também temos uma quantidade considerávelmente alta de alunos com notas entre 50 e 60, o que pode significar que não existe uma correlação entre nível de ensino do responsável com a nota do aluno ou uma quantidade insuficiente de dados, já que essa categoria de aluno detém apenas 59 registros, o que representa menos de 6% dos dados.
 
 Concluímos que em matemática os alunos que se saem melhores são os homens cujo os pais não tem ensino médio completo.
@@ -318,8 +318,79 @@ Verificando uma distribuição com uma categorização de nível educacional dos
 
 ![2leitura_hist_parental](https://user-images.githubusercontent.com/85235525/141661785-f32e336c-b565-4ecc-b95e-dd8089c5bdc6.png)
 
+Ampliando a visualização para notas superiores ou iguais a 40 teremos:
+
+![2leitura_hist_parental_40oumais](https://user-images.githubusercontent.com/85235525/141815088-e608f2f0-3b01-40f1-a9cc-d5f67aee2a35.png)
+
+Temos um rendimento bem inferior dos alunos cujo os responsáveis tem ensino médio incompleto e um dos piores rendimentos dos alunos cujo os pais tem nível técnico. É interessante como no gráfico de matemática os alunos cujo os responsáveis tinham ensino médio incompleto se sairam melhor do que cujo os responsáveis completaram essa etapa de ensino.
 
 
+![read_maiorq_40_hist_genero](https://user-images.githubusercontent.com/85235525/141816146-98336980-786a-463b-8bdc-93528a6098e8.png)
 
+É possível notas uma diferença relevante entre o comportamento das notas de homens e mulheres. Homens tem uma densidade de notas regular entre 50 e 75 enquanto mulheres tem densidades mais pontuais. Grande parte das mulheres tiram notas próximas a 73 com densidades semelhantes entre 73 e 40 e 73 e 100. 
+
+### Conclusão:
+
+Temos que o rendimento em literatura de mulheres é ligeiramente maior que o dos homens. Há um desempenho mais variável entre homens e mais pontuais entre as mulheres.
+Em relação ao nível de ensino dos responsáveis, temos que aqueles cujo os pais tem nível técnico tem um rendimento melhor de forma geral e os com responsáveis que detém de ensino superior incompleto é o pior rendimento, apesar de todos demonstrar o que podemos considerar dois picos de distribuição, exeto aqueles cujo os responsáveis tem ensino nível bacharelado que demonstram uma distribuição mais regular. variando seu pico entre 70 e 75. 
+
+## Escrita/Redação
+
+Escrita temos uma das melhores médias, 68, mas também temos que:
+
+<pre>5% dos alunos tem notas de: 42 pontos.
+10% dos alunos tem notas de: 48 pontos.
+25% dos alunos tem notas de: 57 pontos.
+50% dos alunos tem notas de: 69 pontos.
+75% dos alunos tem notas de: 79 pontos.
+</pre>
+
+![distribuicao_geral_escrita](https://user-images.githubusercontent.com/85235525/141819858-21f17f78-e9b4-479a-a23a-4f3fdf538c9a.png)
+
+
+Se verificarmos nossa distribuição de notas teremos uma pequena porcentagem de alunos com notas a baixo de 42.
+
+Vamos excluir essa minoria de alunos cujo das notas ficam a baixo de 48 e verificarmos se entendemos melhor o comportamento médio por nível educacional do responsável:
+
+![wrt_maiorq_40_hist_parental](https://user-images.githubusercontent.com/85235525/141820224-5210d0f2-b259-44dc-aa93-bae7ae347416.png)
+
+A melhor média é dos reponsáveis com ensino médio incompleto enquanto verificamos que a distribuição desfavorece a cujo os responsáveis concluiram o ensino médio. Temos uma maior densidade entre os alunos cujo os pais tem bacharelado em notas superiores a 90.
+
+![wrt_maiorq_40_hist_parental](https://user-images.githubusercontent.com/85235525/141820689-cc2b645d-43e1-4d6b-99f7-fa7b674f1a7a.png)
+
+### Conclusão:
+
+Temos que o rendimento em redação de mulheres é ligeiramente maior que o dos homens. Há um desempenho mais variável entre homens e mais pontuais entre as mulheres. Não é tão incomum homens tirarem notas abaixo de 60 e acima de 45.
+Em relação ao nível de ensino dos responsáveis, temos que aqueles cujo os pais tem nível técnico tem um rendimento melhor de forma geral e os com responsáveis que detém de ensino médio completo é o pior rendimento. O melhor rendimento na matéria é o dos alunos com responsáveis cujo tem ensino médio incompleto. 
+
+## Média geral
+
+Se tirarmos a média aritimética de cada aluno, podemo ver de uma forma mais geral o seu rendimento:
+
+![distribuicao_geral_media](https://user-images.githubusercontent.com/85235525/141822478-775a72da-8a4b-4fb5-b3eb-730ea77ca626.png)
+
+A média geral é de aproximadamente 68, mas também temos que:
+
+<pre>
+5% dos alunos tem notas de: 44 pontos.
+10% dos alunos tem notas de: 49 pontos.
+25% dos alunos tem notas de: 58 pontos.
+50% dos alunos tem notas de: 68 pontos.
+75% dos alunos tem notas de: 77 pontos.
+</pre>
+
+![geral_maiorq_50_hist_genero](https://user-images.githubusercontent.com/85235525/141823194-65578d8a-1e19-4bd0-ab5a-0203240fe593.png)
+
+A média geral entre homens é de 66 enquanto mulheres é de 70.
+
+![geral_maiorq_50_hist_parental](https://user-images.githubusercontent.com/85235525/141824423-f23e10a1-07d3-424c-9152-92e67c94c391.png)
+
+Os aluno sujo os pais tem nível de bacharelado tem a maior média, com 72 enquanto os que os pais completaram o ensino médio é um dos piores desempenhos médios, com uma média de 63. Se analisarmos as notas acima de 85, os alunos cujo os responsáveis tem bacharelado tem o melhor desempenho de todos.
+A pior média é dos alunos cujo os pais tem ensino superior incompleto e os que os pais concluiram o ensino médio.
+
+# Conclusão:
+
+Sabemos que o desempenho educacional de uma pessoa é um métrica que depende de diversas variáveis, como condições socio econômicas, se o aluno detém alguma deficiência intelectual ou problema de atenção, entre outras, portanto é impossível tirarmos uma conclusão dessa análise que podessamos considerar como um padrão.
+Apesar disso, vimos que caso o aluno consuma alimentos durante o teste, há uma maior chance de ele tirar notas maiores. A média geral de um aluno que consumiu alimentos durante os exames é de 70, enquanto aqueles que consumiram nenhum ou em quantidade reduzidar é de 62. Isso é uma diferença considerável.
 
 
