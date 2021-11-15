@@ -393,4 +393,6 @@ A pior média é dos alunos cujo os pais tem ensino superior incompleto e os que
 Sabemos que o desempenho educacional de uma pessoa é um métrica que depende de diversas variáveis, como condições socio econômicas, se o aluno detém alguma deficiência intelectual ou problema de atenção, entre outras, portanto é impossível tirarmos uma conclusão dessa análise que podessamos considerar como um padrão.
 Apesar disso, vimos que caso o aluno consuma alimentos durante o teste, há uma maior chance de ele tirar notas maiores. A média geral de um aluno que consumiu alimentos durante os exames é de 70, enquanto aqueles que consumiram nenhum ou em quantidade reduzidar é de 62. Isso é uma diferença considerável.
 
+Esse escrito teve o objetivo de demonstrar as minhas habilides em análise de dados.
+
 
